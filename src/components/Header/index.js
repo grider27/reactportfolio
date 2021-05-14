@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./style.css";
 
-const NavBar = () => {
+const Header = () => {
     const [open, setOpen] = useState(false);
     const [screenWidth, setScreenWidth] = useState(0);
     const location = useLocation();
@@ -58,30 +58,12 @@ const NavBar = () => {
                         </li>
                         <li>
                             <Link
-                                to="/about"
-                                onClick={handleClose}
-                                style={{ color: location.pathname === "/about" && "#afbdc9" }}
-                            >
-                                About
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
                                 to="/projects"
                                 onClick={handleClose}
                                 style={{ color: location.pathname === "/projects" && "#afbdc9" }}
                             >
                                 Projects
                             </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="/contact"
-                                onClick={handleClose}
-                                style={{ color: location.pathname === "/contact" && "#afbdc9" }}
-                            >
-                                Contact
-                        </Link>
                         </li>
                     </ul>
                 </div>
@@ -90,4 +72,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default Header;

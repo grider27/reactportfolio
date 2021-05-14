@@ -11,8 +11,8 @@ const Home = () => {
                 <h1>Gary Basra</h1>
                     <h4 className="subtitle">Full Stack Engineer</h4>
                 </h1>
-                <Link to="/about">
-                    <button>More Info</button>
+                <Link to="/projects">
+                    <button>Portfolio</button>
                 </Link>
             </div>
             <div className="person">
