@@ -12,7 +12,7 @@
 #portfolio a:hover {
     color: #F2D0A7;
     text-transform: uppercase;
-    background-color: #2182BF;
+    background-color: lightblue;
 }
 
 #portfolio .card {

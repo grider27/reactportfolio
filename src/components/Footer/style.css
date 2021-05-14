@@ -15,5 +15,9 @@ i:hover {
 
 p {
     padding-left: 12px;
-    color: #56738C;
+    color: #fff;
+}
+
+.fa{
+    color: #fff;
 }

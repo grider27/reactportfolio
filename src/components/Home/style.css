@@ -55,7 +55,7 @@ a {
 
 h1 {
     font-size: 70px!important;
-    color: #afbdc9!important;
+    color: #fff!important;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -67,6 +67,7 @@ h4 {
 
 .subtitle {
     font-family: 'Raleway', sans-serif;
+    color: #fff;
 }
 
 @media (min-width: 800px) {

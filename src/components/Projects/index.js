@@ -13,10 +13,10 @@ const Projects = () => {
                         </div>
                         <div className="card-body mb-5 pl-0">
                             <h3>Ultimate Sports Tracker</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                                 An app serves the user by organizing and
                                 displaying sports statistics and team news.
-                            </p>
+                            </h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://grider27.github.io/ultimatesportstracker/" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
@@ -35,9 +35,9 @@ const Projects = () => {
                         </div>
                         <div className="card-body mb-5 pl-0">
                             <h3>Weather Dashboard</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                                 A weather dashboard that runs and features dynamically updated HTML and
-                            CSS.</p>
+                            CSS.</h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://grider27.github.io/penn-lps-bcs/homework/homework6-WeatherDashboard/" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
@@ -54,10 +54,10 @@ const Projects = () => {
                             alt="libraryofcongress" />
                         <div className="card-body mb-5 pl-0">
                             <h3>Library Of Congress</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                                 Mini project to build an application that searches and displays results
                                 from the Library of Congress API.
-                            </p>
+                            </h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://grider27.github.io/libraryofcongress/index.html" className="btn mr-2" target="_blank" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
@@ -76,10 +76,10 @@ const Projects = () => {
                         </div>
                         <div className="card-body mb-5 pl-0">
                             <h3>Password Generator</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                                 A password generator that is intuitive enough for users to use to randomly
                                 generate passwords
-                            </p>
+                            </h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://grider27.github.io/penn-lps-bcs/homework/homework3-PasswordGenerator/" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
@@ -98,9 +98,9 @@ const Projects = () => {
                         </div>
                         <div className="card-body mb-5 pl-0">
                             <h3>Wiki Pour</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                                 As an avid connoisseur of drinks, I want to be able to use a website to find great drink recipes and contribute to the ones I have created for others to share so we can all take advantage of crowd sourced insights.
-                            </p>
+                            </h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://wiki-pour.herokuapp.com/" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
@@ -119,9 +119,9 @@ const Projects = () => {
                         </div>
                         <div className="card-body mb-5 pl-0">
                             <h3>Note taker</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                             Application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
-                            </p>
+                            </h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://note-taker-utility.herokuapp.com/" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
@@ -140,9 +140,9 @@ const Projects = () => {
                         </div>
                         <div className="card-body mb-5 pl-0">
                             <h3>Employee Tracker</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                             Architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
-                        </p>
+                        </h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://github.com/grider27/EmployeeTracker" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
@@ -161,9 +161,9 @@ const Projects = () => {
                         </div>
                         <div className="card-body mb-5 pl-0">
                             <h3>E-commerce Backend</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                             Architect and build the back end for an e-commerce site by modifying starter code. With a configured working Express.js API to use Sequelize to interact with a MySQL database.
-                        </p>
+                        </h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://github.com/grider27/E-commerceBackEnd" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
@@ -182,9 +182,9 @@ const Projects = () => {
                         </div>
                         <div className="card-body mb-5 pl-0">
                             <h3>Budget Tracker</h3>
-                            <p className="card-text">
+                            <h6 className="card-text">
                             Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-                        </p>
+                        </h6>
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
                                 <a href="https://gb-budget-tracker.herokuapp.com/" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>

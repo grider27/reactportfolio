@@ -51,7 +51,7 @@ const Header = () => {
                             <Link
                                 to="/"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/" && "#afbdc9" }}
+                                style={{ color: location.pathname === "/" && "#fff" }}
                             >
                                 Home
                             </Link>
@@ -60,7 +60,7 @@ const Header = () => {
                             <Link
                                 to="/projects"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/projects" && "#afbdc9" }}
+                                style={{ color: location.pathname === "/projects" && "#fff" }}
                             >
                                 Projects
                             </Link>
